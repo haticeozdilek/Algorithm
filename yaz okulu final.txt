@@ -1,0 +1,16 @@
+*Liste rastgele sayıda(1 ile 10 arasında) sıfırlar ve onları takip eden(2'nin kuvvetlerinden oluşan, artarak devam eden) 
+12 adet sayıdan oluşmaktadır. İstenen listenin bir örneği aşağıdaki gibi olabilir.(Bu sadece bir örnektir. Aynısını oluşturmaya çalışmayın)
+[0, 0, 0, 1, 0, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 32, 0, 0, 64, 0, 0, 128, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 512, 0, 0, 0, 0, 1024, 0, 0, 0, 0, 0, 2048]
+
+Yukarıda tarif edildiği haliyle bir liste oluşturan algoritmayı yazın.
+
+A1.Basla
+A2.pow=1, i=0, random=0, index=0
+A3.random=RANDOM(1, 10), a=0    //Rastgele sayı üretebilmek için RANDOM(a,b) fonksiyonu
+A4.list[index]=0
+A5.index=index+1 al ve a=a+1
+A6.Eğer a<random ise A4'e git
+A7.pow=2**i ve i=i+1 al
+A8.list[index]=pow ve index=index+1 al
+A9.Eğer i<12 ise A3'e git
+A10.Dur
